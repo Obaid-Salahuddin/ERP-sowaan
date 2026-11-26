@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/*
+ * SowaanERP brand
+ *  - Primary purple #583474 (logo) / #573174 (site primary)
+ *  - Accent red     #EF2D28 (calls to action)
+ *  - Font           Roboto
+ */
+@theme inline {
+  --font-sans: var(--font-roboto);
+  --font-mono: var(--font-geist-mono);
+
+  --color-brand-50: #f4f0f7;
+  --color-brand-100: #efe8f4;
+  --color-brand-200: #dccde8;
+  --color-brand-300: #c2a6d6;
+  --color-brand-400: #9b6fbf;
+  --color-brand-500: #75429c;
+  --color-brand-600: #583474;
+  --color-brand-700: #4a2b62;
+  --color-brand-800: #3a2250;
+  --color-brand-900: #2a1838;
+  --color-brand-950: #201d24;
+
+  --color-accent-50: #fdecec;
+  --color-accent-100: #fbd5d4;
+  --color-accent-500: #ef2d28;
+  --color-accent-600: #d6231e;
+  --color-accent-700: #b31c18;
+}
+
+body {
+  background: #f8fafc;
+  color: #201d24;
+}
